@@ -1,0 +1,40 @@
+		nav
+		{
+			/* Floating the navigation bar to right and setting width and height to 100% will
+			  expand the navigation bar to entire screen  */
+			float: right; 
+			width: 100%;
+			height: 100%;
+		}
+		ul 
+		{
+    		padding: 0;
+    		overflow: hidden;
+    		background-color: #333;   		 
+		}
+		li
+		{
+			display: inline;
+			float: left;
+		}
+		li a
+		{
+			display: block;
+    		color: white;
+    		text-align: center;
+    		padding: 12px 16px;
+    		text-decoration: none;
+		}
+		li a:hover
+		{
+			background:  #111;
+		}
+		.active
+		{
+			background: green;
+		}
+
+		a
+		{
+			text-decoration: inherit;
+		}
